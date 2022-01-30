@@ -1,0 +1,12 @@
+{
+  "name": "borrisstore-v2-public-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Hi5a",
+  "license": "ISC"
+}
