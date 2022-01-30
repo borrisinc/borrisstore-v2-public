@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "Hi5a",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "jest": "^27.4.7",
+    "jsdom": "^19.0.0"
+  }
 }
