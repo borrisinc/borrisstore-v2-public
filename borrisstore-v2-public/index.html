@@ -19,21 +19,10 @@
     Length: 5 inches">
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="manifest" href="manifest.json" />
     <!-- import the webpage's javascript file -->
     <script src="script.js" defer></script>
-    <script>if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        navigator.serviceWorker.register("./borrisstore-v2-public/serviceworker.js").then(
-          function (registration) {
-            console.log("Hurray! Service workers with scope: ", registration.scope);
-          },
-          function (err) {
-            console.log("Oops! ServiceWorker registration failed: ", err);
-          }
-        );
-      });
-    }</script>
+    
   </head>
  <body>
    <!-- Google Tag Manager (noscript) -->
@@ -63,6 +52,7 @@
   </p>
   <a class="link-text" href="about.html">about borris
   </a>
+  <script src="app.js"></script>
 </body>
   
 </html>
